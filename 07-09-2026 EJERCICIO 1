@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int vector[5],x;
+
+    // metés los x datos
+    for (x = 0; x < 5; x++) {
+        printf("Ingrese el dato %d: ", x + 1);
+        scanf("%d", &vector[x]);
+    }
+
+    printf("\nDatos del vector:\n");
+
+    // mostrás los datos metidos
+    for (x = 0; x < 5; x++) {
+        printf("Dato %d: %d\n", x + 1, vector[x]);
+    }
+
+    return 0;
+}
